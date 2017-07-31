@@ -5,7 +5,9 @@ body * {
 }
 
 body {
-  background-color: rgba(148, 103, 87, 0.24);
+  /*background-color: rgba(148, 103, 87, 0.24);*/
+  background-color: rgba(87, 134, 148, 0.25);
+  color: #000042;
 }
 
 .clearfix:after {
@@ -29,15 +31,33 @@ header {
 
 /*Body*/
 .submissions-body {
-  padding: 0 30px 0;
+  padding: 0 40px 0;
   float: left;
-  width: 80%;
+  width: 55%;
 }
 
-.submissions-disclaimer {
-  padding: 0 30px 0;
-  float:left;
-  width: 90%;
+.submissions-image {
+  width: 30%;
+  padding: 1.5em 40px;
+  /*margin: 1em 0;*/
+  display: block;
+  /*float: left;
+  font: 125%/1.6 'Rubik', sans-serif;*/
+  
+}
+
+.submissions-about {
+  padding: 0 40px 0;
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.submissions-history {
+  padding: 0 40px 0;
+  float: left;
+  width: 30%;
+  text-align: center;
 }
 
 .submissions-paragraph {
@@ -45,8 +65,17 @@ header {
   float: left;
 }
 
+ul.submissions-paragraph {
+  display: block;
+}
+
+ul.submissions-paragraph li {
+  display: list-item;
+}
+
 .disclaimer-info {
-  font: 100%/1.4 'Rubik', sans-serif;
+  font: 90%/1.2 'Rubik', sans-serif;
+  font-style: italic;
   /*margin-left: auto;
   margin-right: auto;
   text-align: center;*/
