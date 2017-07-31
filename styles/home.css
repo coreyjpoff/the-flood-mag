@@ -20,7 +20,7 @@ body {
 header {
   float: left;
   color: darkgreen;
-  width: 100%;
+  width: 55%;
 }
 
 .header-subtitle {
@@ -38,12 +38,8 @@ header {
 
 .submissions-image {
   width: 30%;
-  padding: 1.5em 40px;
-  /*margin: 1em 0;*/
+  padding: 4em 40px;
   display: block;
-  /*float: left;
-  font: 125%/1.6 'Rubik', sans-serif;*/
-  
 }
 
 .submissions-about {
@@ -58,6 +54,29 @@ header {
   float: left;
   width: 30%;
   text-align: center;
+}
+
+@media screen and (max-width: 1099px) {
+  .submissions-body {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .submissions-image {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .submissions-about {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .submissions-history {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .submissions-paragraph {
