@@ -38,6 +38,8 @@ header {
 
 .submissions-image {
   width: 30%;
+  max-width: 1824px;
+  max-height: 1392px;
   padding: 4em 40px;
   display: block;
 }
